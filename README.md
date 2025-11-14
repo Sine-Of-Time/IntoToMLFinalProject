@@ -3,9 +3,9 @@
 Kian Frawley: Sine-Of-Time
 Brian L: Bluch13
 
- Link to Slides: https://docs.google.com/presentation/d/1Kak6IjFSr82CmBHXiKbQCYrhKROH-82eZWKkSu1hpBg/edit?usp=sharing
+Link to Slides: https://docs.google.com/presentation/d/1Kak6IjFSr82CmBHXiKbQCYrhKROH-82eZWKkSu1hpBg/edit?usp=sharing
 
- Link to paper: https://docs.google.com/document/d/191q9GFC03KCSHMuPtWsXpnphcDSiMRDLj7qRmX_0P3E/edit?usp=sharing
+Link to paper: https://docs.google.com/document/d/191q9GFC03KCSHMuPtWsXpnphcDSiMRDLj7qRmX_0P3E/edit?usp=sharing
 
 2. Link to the paper and its code.
    Paper: https://aclanthology.org/2022.acl-long.52/
