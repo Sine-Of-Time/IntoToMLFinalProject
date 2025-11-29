@@ -7,7 +7,8 @@ Created on Fri Sep 17 05:27:58 2021
 
 import os
 import argparse
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import modeling
 import tokenization
 import numpy as np
@@ -615,3 +616,4 @@ for si in range(start,end):
                         fs.rounds([vg_tst_acc,vg_tst_f1,vg_tst_loss,vg_tst_ece,vg_tst_oe]))
     mylog.printNlogging(50*'#')
     mylog.printNlogging(' ')
+
