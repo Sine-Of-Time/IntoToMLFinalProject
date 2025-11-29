@@ -7,7 +7,8 @@ Created on Tue Sep  7 14:01:00 2021
 
 import os
 import argparse
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import modeling
 import tokenization
 import numpy as np
@@ -585,3 +586,4 @@ for si in range(start,end):
     mylog.printNlogging('val+'+val_per_class+'-stop global tst acc/loss/ece/oe =',fs.rounds([vg_tst_acc,vg_tst_loss,vg_tst_ece,vg_tst_oe]))
     mylog.printNlogging(50*'#')
     mylog.printNlogging(' ')
+
