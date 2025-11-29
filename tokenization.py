@@ -21,8 +21,8 @@ from __future__ import print_function
 import collections
 import unicodedata
 import six
-import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 def convert_to_unicode(text):
   """Converts `text` to Unicode (if it's not already), assuming utf-8 input."""
@@ -290,3 +290,4 @@ def _is_punctuation(char):
   if cat.startswith("P"):
     return True
   return False
+
